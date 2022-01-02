@@ -1,0 +1,43 @@
+@import "./base/variables.scss";
+#header {
+  margin: 0;
+  nav {
+    height: 40px;
+    .container-fluid {
+      width: 850px;
+      height: 26px;
+      margin-bottom: 14px;
+      div {
+        ul {
+          width: 850px;
+          li {
+            margin: 0 30px 0 0;
+            a {
+              width: 77px;
+              font-size: 16px;
+              color: #1e1e1e;
+              font-weight: 400px;
+              line-height: 19px;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-top: 36px;
+      margin-bottom: 8px;
+      max-height: 76px;
+      max-width: 222px;
+    }
+  }
+  .navLine {
+    width: 100%;
+    border: 1px solid $navLineColor;
+  }
+}

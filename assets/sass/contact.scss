@@ -1,0 +1,32 @@
+@import "./base/variables.scss";
+.breadcrump {
+  width: 160px;
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 50.54px;
+  padding: 0;
+  div {
+    margin-right: 10px;
+  }
+  .home {
+    width: 33px;
+    height: 14px;
+  }
+  .arrowIcon {
+    width: 17px;
+    height: 17px;
+  }
+  .contactUs {
+    height: 14px;
+  }
+}
+.container {
+  .contactTitle {
+    height: 35.53px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56.25px;
+    color: $contactTitleColor;
+    margin-bottom: 80.93px;
+  }
+}

@@ -1,0 +1,55 @@
+@import "./base/variables.scss";
+@import "./base/button.scss";
+form {
+  .col-6 {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 440px;
+    padding: 0;
+    .input-group {
+      input {
+        height: 60px;
+        background: $registerBackroundColor;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+      }
+    }
+  }
+
+  .form-select {
+    height: 60px;
+    background-color: $registerBackroundColor;
+    border-radius: 8px;
+  }
+  .col-12 {
+    width: 900px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    .form-textarea {
+      resize: none;
+      background: $registerBackroundColor;
+      border-radius: 8px;
+    }
+  }
+
+  .form-check {
+    margin-bottom: 56px;
+    .form-check-input {
+      margin-right: 10px;
+      width: 17px;
+      height: 17px;
+    }
+    .form-check-label {
+      font-size: 14px;
+      font-weight: 400px;
+    }
+  }
+  .formButton {
+    @extend %baseButton;
+    @include mixinButton(440px, 60px);
+    margin-bottom: 267px;
+  }
+}

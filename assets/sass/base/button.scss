@@ -1,0 +1,11 @@
+%baseButton {
+  background: $button-backround;
+  color: $button-color;
+  border-radius: 8px;
+  border: none;
+}
+
+@mixin mixinButton($width, $height) {
+  width: $width;
+  height: $height;
+}
